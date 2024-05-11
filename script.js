@@ -1,14 +1,27 @@
-//
-let body = document.body;
-let btncolor = document.querySelector("#btncolor");
+// //
+// let body = document.body;
+// let btncolor = document.querySelector("#btncolor");
 
-// array color random
+// //
+// btncolor.addEventListener("click", rgbcolor);
 
-let rColor = ["red", "blue", "green", "gray", "white", "black", "pink"];
-//
-btncolor.addEventListener("click", randomcolor);
+// //  function  random nubmer
 
-function randomcolor() {
+// function randomball() {
+//   return Math.floor(Math.random() * 255)
+// }
 
-    
-}
+// function rgbcolor() {
+//   let rgb1color = "rgb( ${randomball()},${randomball()},${randomball()})";
+//   body.style.backgroundColor = rgb1color;
+// }
+let btncolor =document.querySelector("btncolor")
+const btn = document.getElementById("btncolor");
+
+let rgbrandom = () => {
+  return Math.floor(Math.random() * 256);
+};
+let changcolor = () => {
+  console.log("Function called");
+};
+// btncolor.addEventListener ("click",changcolor)
