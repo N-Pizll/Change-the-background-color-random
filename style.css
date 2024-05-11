@@ -1,6 +1,6 @@
 body {
-    display: flex;
-    justify-content: center;
+   display: grid;
+   justify-content: center;
 }
 #btncolor {
     width: 120px;
