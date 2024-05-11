@@ -1,11 +1,14 @@
-// 
+//
 let body = document.body;
-let btncolor = document.querySelector("#btncolor")
+let btncolor = document.querySelector("#btncolor");
 
-//  
-btncolor.addEventListener("click",randomcolor)
+// array color random
 
+let rColor = ["red", "blue", "green", "gray", "white", "black", "pink"];
+//
+btncolor.addEventListener("click", randomcolor);
 
 function randomcolor() {
-     
+
+    
 }

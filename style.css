@@ -1,11 +1,11 @@
 body {
-   display: grid;
-   justify-content: center;
+  display: grid;
+  justify-content: center;
 }
 #btncolor {
-    width: 120px;
-    height: 50px;
-    border-radius: 11px;
-    color: blueviolet;
-    border-color: rgb(96, 96, 212);
+  width: 120px;
+  height: 50px;
+  border-radius: 11px;
+  color: blueviolet;
+  border-color: rgb(96, 96, 212);
 }
